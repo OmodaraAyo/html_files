@@ -1,0 +1,324 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.navbar_top{
+    margin: auto;
+    display: flex;
+    width: 92%;
+    height: 120%;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    margin: auto;
+    width: 100%;
+    height: 95px;
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu{
+    display: inline-flex;
+    list-style: none;
+}
+.navbar_links:hover{
+    color: #254d92d6;
+}
+.navbar_links{
+    color: #26344dd6;
+    display: block;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-family:sans-serif;
+    margin: 20px;
+    padding: 0 1rem;
+    font-family: Arial;
+ }
+.navbar_button{
+    text-decoration: none;
+    color: red;
+}
+.navbar_button:hover{
+    color: #26344dd6;
+}
+.button{
+    border-radius: 11px;
+    background-color: #fff;
+    border: 2px solid red;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 200px;
+    height: 50px;
+    font-family: Arial;
+}
+.Digital{
+    color:#26344dd6;
+    font-size: 25px;
+    margin: 40px;
+    padding: 10px;
+}
+.empower{
+    font-size: 17px;
+    font-family: Arial;
+}
+.Accelerating{
+    font-family:'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar_links2{
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-family:sans-serif;
+    margin: 14px;
+    padding: 0 1rem;
+    height: 100%;
+    font-family: Arial;
+}
+.navbar_links2:hover{
+    color: #f0d7d7;
+}
+.apply_link{
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-family:sans-serif;
+    gap: 20px;
+    margin: 14px;
+    padding: 10px;
+    padding: 0 1rem;
+    height: 100%;
+    font-family: Arial;
+}
+.individuals_button{
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 16px;
+    position: relative;
+    top: 15px;
+    padding: 2px;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    background: rgba(255, 33, 33, 0.903);
+    color: #ffffff;
+    font-family: Arial;
+}
+.businesses_links2{
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-family:sans-serif;
+    gap: 20px;
+    margin: 14px;
+    padding: 0 1rem;
+    height: 100%;
+    font-family: Arial;
+}
+.businesses_links2:hover{
+    color: #26344dd6;
+}
+.businesses_button{
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 16px;
+    height: 100%;
+    position: relative;
+    top: 16px;
+    border: 2px solid red;
+    outline: none;
+    border-radius: 13px;
+    background: white;
+    color: #ee0000;
+}
+.people{
+    float: inline-end;
+    margin-top: -340px;
+    width: 60%;
+    justify-content: end;
+    align-items: end;
+}
+
+.third_line{
+    color:  #26344dd6;
+    margin: 110px;
+    margin-top: 250px;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Helvetica;
+}
+.highlight{
+    color: rgba(255, 33, 33, 0.903);
+}
+.box_container{
+    display: flex;
+    padding: 76px;
+    margin-top: -70px;
+}
+.navbar_box{
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    margin-top: -110px;
+    width: 58%;
+    height: 48vh;
+    border: 2px solid red;
+    outline: none;
+    padding-bottom: 23%;
+    border-radius: 19px;
+    background:  rgba(255, 33, 33, 0.903);
+    color: #fff;
+    overflow: hidden;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    box-sizing:border-box;
+}
+/* @media screen and (max-width: 600px){
+    .navbar_box{
+        width: auto;
+        height: auto;
+    }
+} */
+.circle{
+    margin-left: 62px;
+    margin-top: 62px;
+    display: flex;
+    height: 60px;
+    width: 60px;
+    border: 4px solid #fff;
+    background-color: rgba(255, 33, 33, 0.903);
+    border-radius: 50%;
+}
+.box{
+    display:inline-table;
+    text-align: left;
+    line-height: 1.5;
+    font-size: 20px;
+    color:#ffffff;
+}
+.dividual{
+    font-size: 38px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.square{
+    display: flex;
+    margin-left: 62px;
+    margin-top: 62px;
+    height: 60px;
+    width: 60px;
+    border: 5px solid #fff;
+    background-color: rgba(255, 33, 33, 0.903);
+}
+
+.support{
+    display:inline-table;
+    margin-right: 44px;
+    text-align: left;
+    line-height: 1.5;
+    font-size: 20px;
+    color:#ffffff;
+}
+.how_we_do_it{
+    display: flex;
+    color:  #26344dd6;
+    padding: 170px;
+    margin-top: -60px;
+    font-weight: bold;
+    font-size: 28px;
+    font-family:Tahoma;
+}
+.first_inner_body{
+    display: flex;
+    color: rgba(255, 33, 33, 0.903);
+    font-size: 22px;
+    font-family: Verdana, sans-serif;
+    padding: 181px;
+    margin-top: -300px;
+}
+.inner_body{
+    display: flex;
+    color:  #26344dd6;
+    font-size: 18px;
+    font-family: Verdana, sans-serif;
+    padding: 181px;
+    margin-top: -330px;
+}
+.Alanxadroff_line{
+    display: flex;
+    margin: -435px;
+    margin-left: 170px;
+    height: 270px;
+    width: 4px;
+    background-color: rgb(244, 239, 239);
+}
+.red_line{
+    margin-left: 169px;
+    margin-top: 180px;
+    height: 22px;
+    width: 4px;
+    border-radius: 2px;
+    background-color: rgba(255, 33, 33, 0.903);
+}
+.circle_2{
+    margin-top: 237px;
+    display: flex;
+    height: 290px;
+    width: 290px;
+    background-color: rgb(246, 231, 231);
+    border-radius: 50%;
+}
+.facilitating{
+    display: flex;
+    margin-left: 730px;
+    margin-top: -637px;
+}
+.Teaching_image{
+    display: flex;
+    border-radius: 10px;
+    width: 627px;
+    height: 370px;
+}
+.facilitator_box{
+    display: flex;
+    margin-left: 730px;
+    margin-top: -8px;
+    position: relative;
+}
+.f_box{
+    color: #fff;
+    text-align: left;
+    width: 627px;
+    height: 149px;
+    background-color: rgba(255, 33, 33, 0.903);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 26px;
+    line-height: 1.3;
+    font-size: 16px;
+    font-family: Arial;
+    border:  2px solid rgba(255, 33, 33, 0.903);
+}
+.training{
+    font-size: 19px;
+    font-family:'Gill Sans MT';
+}
+.Learn_more{
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 17px;
+}
+.enum_bus{
+    
+}
